@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Hilan Hours Extractor",
+  "version": "1.0",
+  "description": "Extract working hours from Hilan system",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "*://*.hilan.co.il/*",
+    "*://*.net.hilan.co.il/*",
+    "*://*.malam-payroll.com/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "hilan-hours@example.com"
+    }
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
